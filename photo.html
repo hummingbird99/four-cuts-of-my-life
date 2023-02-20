@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/photo.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <title>인생네컷</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="photos">
+        <div
+          id="img1"
+          class="photo-frame"
+          onmouseover="hideText('첫')"
+          onmouseout="showText('첫')"
+        >
+          <span id="desc1" class="photo-desc"
+            >배고프다..</span
+          >
+        </div>
+        <div
+          id="img2"
+          class="photo-frame"
+          onmouseover="hideText('두')"
+          onmouseout="showText('두')"
+        >
+          <span id="desc2" class="photo-desc"
+            >슬슬 꿀 빨러 나가볼까</span
+          >
+        </div>
+        <div
+          id="img3"
+          class="photo-frame"
+          onmouseover="hideText('세')"
+          onmouseout="showText('세')"
+        >
+          <span id="desc3" class="photo-desc"
+            >도약 준비!</span
+          >
+        </div>
+        <div
+          id="img4"
+          class="photo-frame"
+          onmouseover="hideText('네')"
+          onmouseout="showText('네')"
+        >
+          <span id="desc4" class="photo-desc"
+            >이얍!!</span
+          >
+        </div>
+      <div class="footer">
+        <p class="f-title">🤍Introduce Hummingbird🤍</p>
+        <p class="f-date">2023.02.20.</p>
+      </div>
+    </div>
+    <!-- Modal Area -->
+    <img class="modal-btn" data-animation src="/images/bird.png" alt="modal button" />
+    <div class="modal">
+      <div class="modal-window">
+        <div class="modal-content">
+          <h2 class="title"></h2>
+          <p id="p1" class="letters"></p>
+          <p id="p2" class="letters"></p>
+          <p id="p3" class="letters"></p>
+        </div>
+        <div class="btn-x" alt="close button">X</div>
+      </div>
+    </div>
+  </body>
+  <script src="js/photo.js"></script>
+  <script type="module" src="js/modal.js"></script>
+  <script type="module" src="js/info.js"></script>
+</html>
