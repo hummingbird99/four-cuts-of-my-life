@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "/photo.html"
+  status = 200
+  force = false
