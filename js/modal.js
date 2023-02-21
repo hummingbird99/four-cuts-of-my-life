@@ -1,5 +1,5 @@
 /* Import modal content */
-import sendYou from "./info.js";
+import sendYou from "./info.mjs";
 
 /* Declare HTML Tags */
 const modal = document.querySelector(".modal");
